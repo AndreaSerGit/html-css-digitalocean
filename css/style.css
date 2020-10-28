@@ -4,26 +4,33 @@
   padding: 0;
 }
 nav {
-  height: 50px;
-  line-height: 50px;
+  height: 60px;
+  width: 100%;
+  line-height: 60px;
   background-color: #FFFFFF;
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 100;
 }
 
-[class*="col-"] {
-  border: 1px solid black;
-}
 nav ul {
   padding: 0;
   margin: 0;
   list-style: none;
+  display: inline-block;
 }
 nav ul li {
   display: inline-block;
   margin-right: 10px;
-  font-size: 18px;
+  font-size: 16px;
 }
 nav ul li a {
   color: black;
+  text-decoration: none;
+}
+nav ul li a:hover {
+  color: #006AFF;
   text-decoration: none;
 }
 nav ul li a i {
@@ -32,4 +39,53 @@ nav ul li a i {
 nav  img {
   height: 30px;
   width: 150px;
+}
+nav button {
+  height: 40px;
+  padding: 10px;
+  font-size: 16px;
+  vertical-align: middle;
+  line-height: 0;
+  background-color: #FFFFFF;
+  color: #006AFF;
+  border-color: #006AFF;
+  border-radius: 8px;
+}
+nav button:hover {
+  color: #FFFFFF;
+  background-color: #006AFF;
+  cursor: pointer;
+}
+nav .glyphicon {
+  font-size: 25px;
+  color: #006AFF;
+  vertical-align: middle;
+}
+/* nav */
+
+.header_bottom {
+  margin-top: 60px;
+  height: 400px;
+  background-image: url("../img/bg-home-hero-3-bb4b33b77274db09b969f629ad81c4d5.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.header_title {
+  padding-top: 30px;
+  color: #FFFFFF;
+}
+.header_title h1 {
+  font-size: 55px;
+}
+.header_title p {
+  font-size: 20px;
+}
+
+/* header */
+
+/* main */
+main {
+  height: 100px;
+  background-color: yellow;
 }
