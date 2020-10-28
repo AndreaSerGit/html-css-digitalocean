@@ -61,6 +61,9 @@ nav .glyphicon {
   color: #006AFF;
   vertical-align: middle;
 }
+nav .glyphicon:hover {
+  cursor: pointer;
+}
 /* nav */
 
 .header_bottom {
@@ -89,6 +92,9 @@ nav .glyphicon {
   margin-top: 50px;
   border-radius: 5px;
 }
+.white_window  h2 {
+  font-weight: bold;
+}
 .white_window  h2:nth-child(2n) {
   margin-top: 0;
 }
@@ -103,6 +109,9 @@ nav .glyphicon {
   padding: 8px;
   border-radius: 8px;
   border:1px solid lightgrey;
+}
+.form input:focus {
+  outline: none;
 }
 .form .btn_style {
   background-color: #006AFF;
