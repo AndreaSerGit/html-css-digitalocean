@@ -278,9 +278,12 @@ main h2 {
 .service .container-fluid {
   padding-bottom: 50px;
 }
-.service .container-fluid [class*="col-"] {
+.service .container-fluid .row {
   border-bottom: 1px solid #FFFFFF;
   padding: 10px;
+}
+.service .container-fluid .row:last-child {
+  border-bottom: 0;
 }
 .service h4 {
   font-weight: bold;
@@ -315,6 +318,9 @@ main h2 {
   background-color: #FFFFFF;
   vertical-align: middle;
 }
+.rocker_box img {
+  width: 400px;
+}
 .rocker_box h3 {
   color: grey;
   font-size: 26px;
@@ -340,8 +346,31 @@ main h2 {
   color: #1633FF;
   margin-bottom: 80px;
 }
+/* development */
 
-
+/* started */
+.started {
+  background-color: #0035AF;
+  color: #FFFFFF;
+}
+.started h2 {
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+.started .btn_style {
+  background-color: #FFFFFF;
+  color: #0035AF;
+  margin-bottom: 50px;
+  width: 180px;
+  height: 38px;
+  font-size: 17px;
+}
+.started .btn_style:hover {
+  color: #0035AF;
+  background-color: lightgrey;
+}
+/* started */
+/* main */
 
 
 @media screen and (max-width: 768px) {
@@ -354,5 +383,8 @@ main h2 {
   }
   .features [class*="col-"] {
     margin-bottom: 20px;
+  }
+  .rocker_box img {
+    width: 100%;
   }
 }
