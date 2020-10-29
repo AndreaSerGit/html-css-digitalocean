@@ -143,6 +143,10 @@ nav .glyphicon:hover {
 /* header */
 
 /* main */
+main h2 {
+  font-weight: bold;
+  padding-top: 50px;
+}
 /* brands */
 .brands {
   background-color: #F3F5F9;
@@ -168,10 +172,6 @@ nav .glyphicon:hover {
 /* brands */
 
 /* deploy */
-.deploy h2 {
-  font-weight: bold;
-  padding-top: 50px;
-}
 .deploy p {
   font-size: 22px;
   margin-top: 20px;
@@ -209,9 +209,7 @@ nav .glyphicon:hover {
 .designed {
   background-color: #F3F5F9;
 }
-.designed .container {
-  padding-top: 50px;
-}
+
 .designed h2, .designed h5 {
   font-weight: bold;
 }
@@ -220,7 +218,7 @@ nav .glyphicon:hover {
   margin-top: 20px;
   color: grey;
  }
- .image_drop .img_left {
+.image_drop .img_left {
    height: 50px;
    margin-right: 20px;
  }
@@ -233,10 +231,42 @@ nav .glyphicon:hover {
   height: 50px;
   margin-left: 20px;
 }
-
+.image_drop .img_left:hover, .image_drop .img_right:hover {
+  cursor: pointer;
+}
 .designed i {
   color: #1633FF;
   margin-bottom: 80px;
+}
+/* designed */
+
+/* features */
+.features .container {
+  padding-bottom: 80px;
+}
+.features h2 {
+  padding-bottom: 40px;
+}
+.features h4 {
+  font-weight: bold;
+}
+.features p {
+  font-size: 14px;
+  color: grey;
+}
+.features img {
+  margin-bottom: 5px;
+}
+.features a {
+  color: #1633FF;
+}
+.features a:hover {
+  text-decoration: none;
+  color: #1633FF;
+}
+.features i {
+  margin-left: 10px;
+  vertical-align: middle;
 }
 
 
@@ -248,5 +278,8 @@ nav .glyphicon:hover {
   }
   .deploy .top_space {
     padding-top: 10px;
+  }
+  .features [class*="col-"] {
+    margin-bottom: 20px;
   }
 }
