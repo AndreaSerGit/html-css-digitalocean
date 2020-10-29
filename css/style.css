@@ -302,6 +302,45 @@ main h2 {
 }
 /* service */
 
+/* development */
+.development {
+  background-color: #F3F5F9;
+}
+.rocker_box {
+  margin-top: 50px;
+  margin-bottom: 20px;
+  padding-top: 80px;
+  display: inline-block;
+  width: 60%;
+  background-color: #FFFFFF;
+  vertical-align: middle;
+}
+.rocker_box h3 {
+  color: grey;
+  font-size: 26px;
+}
+.rocker_box h5 {
+  font-weight: bold;
+  margin-bottom: 0;
+}
+.rocker_box p {
+  margin-bottom: 20px;
+}
+.development a {
+  color: #1633FF;
+}
+.development a:hover {
+  text-decoration: none;
+  color: #1633FF;
+}
+.development a i {
+  margin-left: 10px;
+}
+.development i {
+  color: #1633FF;
+  margin-bottom: 80px;
+}
+
 
 
 
