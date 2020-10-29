@@ -170,9 +170,11 @@ nav .glyphicon:hover {
 /* deploy */
 .deploy h2 {
   font-weight: bold;
+  padding-top: 50px;
 }
 .deploy p {
   font-size: 22px;
+  margin-top: 20px;
   color: grey;
  }
 .deploy ul {
@@ -183,18 +185,60 @@ nav .glyphicon:hover {
 .deploy ul li {
   font-size: 18px;
   color: grey;
-  border-left: 1px solid grey;
+  border-left: 2px solid grey;
   line-height: 40px;
   padding-left: 10px;
 }
-.deploy .container p {
+.deploy ul li:hover {
+  cursor: pointer;
+  color: #1633FF;
+  border-left: 2px solid #1633FF;
+}
+.deploy .top_space p {
   font-size: 14px;
+  margin-top: 0;
 }
 .deploy .top_space {
   padding-top: 30px;
 }
+.deploy .top_space:nth-child(3n) {
+  padding-bottom: 30px;
+}
 /* deploy */
 /* designed */
+.designed {
+  background-color: #F3F5F9;
+}
+.designed .container {
+  padding-top: 50px;
+}
+.designed h2, .designed h5 {
+  font-weight: bold;
+}
+.designed p {
+  font-size: 22px;
+  margin-top: 20px;
+  color: grey;
+ }
+ .image_drop .img_left {
+   height: 50px;
+   margin-right: 20px;
+ }
+.image_drop .img_center {
+  width: 60%;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+.image_drop .img_right {
+  height: 50px;
+  margin-left: 20px;
+}
+
+.designed i {
+  color: #1633FF;
+  margin-bottom: 80px;
+}
+
 
 
 @media screen and (max-width: 768px) {
