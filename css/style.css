@@ -372,6 +372,37 @@ main h2 {
 /* started */
 /* main */
 
+/* footer */
+footer {
+  background-color: #031C4E;
+  height: 400px;
+  padding-top: 50px;
+}
+footer .copyright {
+  margin-bottom: 0;
+  margin-top: 5px;
+  color: #868FA5;
+}
+footer p {
+  color: #7A859D;
+}
+footer #social {
+  padding: 0;
+  list-style: none;
+}
+footer #social li {
+  display: inline-block;
+  width: 30px;
+  text-align: center;
+}
+footer #social li i {
+  font-size: 20px;
+  color: #7A859D;
+}
+footer #social li i:hover {
+  color: #FFFFFF;
+  cursor: pointer;
+}
 
 @media screen and (max-width: 768px) {
   .deploy ul {
