@@ -187,3 +187,22 @@ nav .glyphicon:hover {
   line-height: 40px;
   padding-left: 10px;
 }
+.deploy .container p {
+  font-size: 14px;
+}
+.deploy .top_space {
+  padding-top: 30px;
+}
+/* deploy */
+/* designed */
+
+
+@media screen and (max-width: 768px) {
+  .deploy ul {
+    margin-left: 0;
+    padding-left: 0;
+  }
+  .deploy .top_space {
+    padding-top: 10px;
+  }
+}
