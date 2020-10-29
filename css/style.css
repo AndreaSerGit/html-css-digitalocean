@@ -268,6 +268,40 @@ main h2 {
   margin-left: 10px;
   vertical-align: middle;
 }
+/* features */
+
+/* service */
+.service {
+  background-color: #0042C0;
+  color: #FFFFFF;
+}
+.service .container-fluid {
+  padding-bottom: 50px;
+}
+.service .container-fluid [class*="col-"] {
+  border-bottom: 1px solid #FFFFFF;
+  padding: 10px;
+}
+.service h4 {
+  font-weight: bold;
+  margin-top: 0;
+}
+.service .city   {
+  color: #B9C6E9;
+}
+.service a {
+  color: #00BCCD;
+}
+.service a:hover {
+  text-decoration: none;
+  color: #1633FF;
+}
+.service i {
+  margin-left: 10px;
+  vertical-align: middle;
+}
+/* service */
+
 
 
 
