@@ -143,7 +143,47 @@ nav .glyphicon:hover {
 /* header */
 
 /* main */
-main {
-  height: 100px;
-  background-color: yellow;
+/* brands */
+.brands {
+  background-color: #F3F5F9;
+}
+.brands h4 {
+  padding: 30px;
+  margin-top: 0;
+  color: #5B6987;
+  font-weight: bold;
+}
+.brands p {
+  padding: 20px;
+  font-size: 16px;
+}
+.brands p a {
+  color: #006AFF;
+  text-decoration: none;
+}
+.brands p a:hover {
+  text-decoration: none;
+  color: #1633FF;
+}
+/* brands */
+
+/* deploy */
+.deploy h2 {
+  font-weight: bold;
+}
+.deploy p {
+  font-size: 22px;
+  color: grey;
+ }
+.deploy ul {
+  list-style: none;
+  padding: 40px;
+  margin-left: 50px;
+}
+.deploy ul li {
+  font-size: 18px;
+  color: grey;
+  border-left: 1px solid grey;
+  line-height: 40px;
+  padding-left: 10px;
 }
