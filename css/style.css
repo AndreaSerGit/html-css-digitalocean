@@ -508,6 +508,7 @@ footer .link_list li a:hover {
     border-radius: 8px;
     padding: 10px;
     position: relative;
+    margin-left: 10px;
   }
 
 }
