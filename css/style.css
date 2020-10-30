@@ -375,7 +375,6 @@ main h2 {
 /* footer */
 footer {
   background-color: #031C4E;
-  height: 400px;
   padding-top: 50px;
 }
 footer .copyright {
@@ -403,6 +402,75 @@ footer #social li i:hover {
   color: #FFFFFF;
   cursor: pointer;
 }
+footer h5 {
+  color: #FFFFFF;
+  font-size: 15px;
+}
+footer .link_list {
+  list-style: none;
+  padding: 0;
+}
+footer .link_list li {
+  line-height: 25px;
+}
+footer .link_list li a {
+  color: #7A859D;
+}
+footer .link_list li a:hover {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+.shark {
+  position: fixed;
+  bottom: 20px;
+  right: 0;
+}
+.shark .image_button {
+  float: right;
+  position: relative;
+  margin-right: 10px;
+  width: 95px;
+}
+.shark .red_circle {
+  position: absolute;
+  top: -10px;
+  right: 0px;
+  line-height: 19px;
+}
+.shark img {
+  width: 70px;
+  margin: 0 10px 10px 15px;
+  border-radius: 8px;
+}
+.shark img:hover {
+  cursor: pointer;
+}
+.shark .red_circle {
+  background-color: red;
+  width: 25px;
+  height: 25px;
+  border: 3px solid #FFFFFF;
+  border-radius: 50%;
+}
+.shark .request {
+  float: left;
+  width: 300px;
+  background-color: #FFFFFF;
+  border-radius: 8px;
+  padding: 10px;
+  position: relative;
+}
+.angle {
+  content: "";
+  position: absolute;
+  left: 290px;
+  top: 20px;
+  border-color: transparent #FFFFFF;
+	border-style: solid;
+	border-width: 20px 0px 20px 20px;
+	height: 0px;
+	width: 0px;
+}
 
 @media screen and (max-width: 768px) {
   .deploy ul {
@@ -417,5 +485,50 @@ footer #social li i:hover {
   }
   .rocker_box img {
     width: 100%;
+  }
+  .development i , .designed i {
+    color: #1633FF;
+    margin-bottom: 80px;
+    margin-top: 60px;
+  }
+
+  .shark {
+    position: fixed;
+    bottom: 20px;
+    left: 0;
+  }
+  .shark .image_button {
+    float: none;
+    position: relative;
+    margin-right: 10px;
+  }
+  .shark .request {
+    width: 300px;
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    padding: 10px;
+    position: relative;
+  }
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .shark {
+    position: fixed;
+    bottom: 20px;
+    left: 0;
+  }
+  .shark .image_button {
+    float: none;
+    position: relative;
+    margin-right: 10px;
+  }
+  .shark .request {
+    width: 300px;
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    padding: 10px;
+    position: relative;
+    margin-left: 10px;
   }
 }
